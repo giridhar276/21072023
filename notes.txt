@@ -1,0 +1,261 @@
+
+
+*** Everything in python is an object ***
+**** Every object contains methods *****
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+aval = 34.43
+
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """spark programming"""
+dname = '''scala programming'''
+
+
+list ( array in C ) ( mutable )
+--------------------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,40]
+blist = ["java","hadoop","unix"]
+clist = [20,3,"unix",45.43]
+
+
+
+tuple  ( immutable , unchangeable , uneditable )
+--------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+*** Elements inside tuple cannot be modified directly ***
+
+atup = (30,40,50)
+btup = ("java","scala",45,34)
+btup = (34,3)
+
+
+
+
+
+dictionary ( hash , hashmap , json )
+-------------------------
+dictionary contains elemnets in the form of keys and values.
+In dictionary keys are always unique
+key can be either number or string
+value can be number or string or list or tuple or dictionary or any complex data structure
+
+syntax:    object = {key:value , key:value , key:value }
+example:    book  = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+           bookinfo={"chap1":[10,"rita","US"] ,"chap2":[20,"Ram","UK"] }
+            data = {1:2,3:4,5:6}
+
+a = 10
+a = 100
+print(a)
+
+
+set
+--------
+set is UNORDERED collection of UNIQUE items of same TYPE.
+
+aset = {10,10,20,30,30}
+
+
+
+
+
+
+exception handling
+-----------------
+
+- syntax error
+- semantic error or runtime error
+
+Handling the errors during the runtime is known as exception handling
+
+try     (mandate)
+except  (mandate)
+else    ( optional)
+finally ( optional)
+raise
+
+
+
+
+library | package | module |
+---------------------------------
+Every library contains set of methods
+
+
+
+
+
+import re     ( grep + awk + sed )
+------------
+re - regular expressions
+
+- re.search()  : search for the patterns
+- re.match()   : match for the patterns ( beginning of the string)
+- re.sub()     :re.sub  ( replace the old with new)
+- re.findall()
+
+
+wildcard characters or meta characters
+---------------------------------------
+
+^ : at the beginning of the string
+
+
+$ : at the end of the string
+
+
+* : zero of more occurences of the preceding character
+
+
++
+
+
+?
+
+
+.
+
+
+()
+
+
+
+[]
+
+
+{}
+
+
+\d
+\w
+
+
+
+
+
+
+
+
+
+
+
+function | submodule | block | definition
+-------------------------------------------
+
+
+- builtin functions      dir(__builtin__)
+- user defined functions
+
+
+user defined functions
+------------------------
+- code reusability
+- define the block once and call it for multiple times
+
+ways of passing arguments
+-----------------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+creating virutal environments
+-----------------------------------
+
+there are 2 ways of creating virutal environments
+
+
+- using conda tool  ( if you are using anaconda )
+
+- using virtualenv
+
+
+
+There are 2 ways of programming
+-----------------------------------
+procedural programming ( top down programming)
+object oriented programming (  class and object )
+
+
+
+
+object oriented programming 
+---------------------------
+-class and object
+- encapsulation
+- data hiding
+- inheritance
+- polymorphism
+   - function overloading
+   - opertor overloading
+
+
+
+class
+------
+class is just like blueprint of the model
+Every class contains data members and member functions
+
+object
+-------
+object is the instance of the class
+
+self
+----
+self is the instance of the object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
